@@ -55,6 +55,6 @@ const getProbabilityTable = (picks) => {
 const makeChoice = (probabilityTable) => {
   const random = Math.random()
   if (random <= probabilityTable.rock) return 'paper'
-  if (random <= (probabilityTable.rock + picks.paper)) return 'scissors'
-  if (random <= (probabilityTable.rock + picks.paper + picks.scissors)) return 'rock'
+  if (random <= (probabilityTable.rock + probabilityTable.paper)) return 'scissors'
+  if (random <= (probabilityTable.rock + probabilityTable.paper + probabilityTable.scissors)) return 'rock'
 }
