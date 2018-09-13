@@ -1,0 +1,10 @@
+{
+  "name": "bato-bato-pik",
+  "version": "0.0.1",
+  "description": "Git gud",
+  "main": "index.html",
+  "repository": "https://github.com/jekku/bato-bato-pik",
+  "author": "Jekri Preclaro Orlina",
+  "license": "MIT",
+  "private": false
+}
