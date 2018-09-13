@@ -9,6 +9,11 @@
   <body>
     <div class='app-container'>
       <div class='ai-box'>
+        <img class='bot-choice -hidden -rock' src='./img/rock.png' />
+        <img class='bot-choice -hidden -paper' src='./img/paper.png' />
+        <img class='bot-choice -hidden -scissors' src='./img/scissors.png' />
+
+        <div class='score -bot'> </div>
       </div>
       <div class='human-box'>
         <button class='choice' data-pick='rock'>
@@ -22,9 +27,11 @@
         <button class='choice' data-pick='scissors'>
           <img src='./img/scissors.png' />
         </button>
+        <div class='score -human'> </div>
       </div>
     </div>
 
+    <div className='status'> </div>
   <script src='./index.js'> </script>
   </body>
 </html>

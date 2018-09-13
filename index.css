@@ -26,6 +26,13 @@ body {
   background-color: #eee3;
 }
 
+.ai-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .human-box {
   display: flex;
   flex-direction: column;
@@ -50,4 +57,13 @@ body {
 .choice > img {
   height: 50px;
   width: 50px;
+}
+
+.bot-choice {
+  height: 100px;
+  width: 100px;
+}
+
+.bot-choice.-hidden {
+   display: none;
 }
